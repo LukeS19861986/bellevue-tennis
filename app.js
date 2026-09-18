@@ -23,7 +23,7 @@ document.querySelector('#membership-form').addEventListener('submit', (event) =>
     `Membership: ${form.get('membership')}`,
     `Notes: ${form.get('notes') || 'None'}`,
   ].join('\n');
-  window.location.href = `mailto:luke.swanson@tbwa.co.za,mw4mac@mweb.co.za?subject=${encodeURIComponent('Bellevue membership application')}&body=${encodeURIComponent(details)}`;
+  window.location.href = `mailto:swanneysmobile@gmail.com,kensington2016@gmail.com?subject=${encodeURIComponent('Bellevue membership application')}&body=${encodeURIComponent(details)}`;
   const status = document.querySelector('.form-message');
   status.hidden = false;
   status.textContent = 'Your email application has been prepared for the Chairman and Club Secretary. Please press Send in your email app to submit it.';
